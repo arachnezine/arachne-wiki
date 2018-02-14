@@ -15,5 +15,6 @@
 
   <header class="" role="banner">
     <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
-    <?php snippet('menu') ?>
+    <?php snippet('nav') ?>
+    <?php snippet('crumbs') ?>
   </header>
