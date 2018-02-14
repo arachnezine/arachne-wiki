@@ -1,8 +1,9 @@
-<nav class="navigation column" role="navigation">
-  <ul class="menu">
-    <?php foreach($pages->visible() as $item): ?>
-    <li class="menu-item<?= r($item->isOpen(), ' is-active') ?>">
+<navrole="navigation">
+  <ul>
+    <?php foreach($site->breadcrumb() as $item): ?>
+    <li class="<?= r($item->isOpen(), ' is-active') ?>">
       <a href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+      <?php e($item != $site->breadcrumb()->last(), ' /') ?>
     </li>
     <?php endforeach ?>
   </ul>

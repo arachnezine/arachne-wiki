@@ -1,17 +1,10 @@
 title: Article
-
 pages: false
 
 fields:
   title:
     label: Title
     type:  title
-    
-  coverimage:
-    label: Cover Image
-    type: image
-    width: 1/2
-    
   date:
     icon: calendar
     label: Date
@@ -21,7 +14,9 @@ fields:
     default: today
     required: true
     width: 1/2
-  
+  ref_url:
+    label: Ref URL
+    type: url
   text:
     label: Text
     type: textarea
