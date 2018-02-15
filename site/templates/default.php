@@ -1,3 +1,4 @@
+<?php if(!$site->user()) go('/') ?>
 <?php snippet('header') ?>
 
   <main class="" role="main">

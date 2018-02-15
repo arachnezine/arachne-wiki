@@ -17,4 +17,5 @@
     <a href="<?= url() ?>" rel="home"><?= $site->title()->html() ?></a>
     <?php snippet('nav') ?>
     <?php snippet('crumbs') ?>
+    <?php snippet('user') ?>
   </header>
