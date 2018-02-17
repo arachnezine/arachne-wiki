@@ -1,0 +1,26 @@
+{
+  "name": "arachne.wiki",
+  "version": "1.0.0",
+  "description": "arachne.wiki ============",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./assets/src/index.js -t [ sheetify -u sheetify-cssnext ] -p [ css-extract -o ./assets/dist/css/styles.css ]"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "css-extract": "^1.2.0",
+    "gr8-util": "^1.3.0",
+    "sheetify": "^7.2.0",
+    "sheetify-cssnext": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arachnezine/arachne-wiki.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arachnezine/arachne-wiki/issues"
+  },
+  "homepage": "https://github.com/arachnezine/arachne-wiki#readme"
+}

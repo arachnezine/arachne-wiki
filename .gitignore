@@ -30,4 +30,6 @@ Icon
 !/assets/avatars/index.html
 
 /assets/dist
-arachne.wiki.todo.txt
+node_modules
+
+arachne.wiki.txt
