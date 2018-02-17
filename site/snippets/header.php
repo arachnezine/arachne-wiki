@@ -8,8 +8,6 @@
   <title><?= $site->title()->html() ?><?php e($page->template() != 'home', ' *~ ' . $page->title()->html())?></title>
   <meta name="description" content="<?= $site->description()->html() ?>">
 
-  <?= css('assets/dist/css/index.css') ?>
-
 </head>
 <body>
 
