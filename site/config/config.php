@@ -69,3 +69,5 @@ c::set('autogit.translation', [
     'file.sort'    => 'Sorted file %s',
     'file.delete'  => 'Deleted file %s',
 ]);
+
+c::set('plugin.commonmark', true);
