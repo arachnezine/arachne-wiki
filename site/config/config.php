@@ -46,29 +46,25 @@ c::set('routes', array(
 c::set('autogit',                true);
 c::set('autogit.remote.name',    'origin');
 c::set('autogit.remote.branch',  'master');
-
 c::set('autogit.webhook.secret', false);
 c::set('autogit.webhook.url',    'autogit');
-
 c::set('autogit.panel.user',     true);
-
-c::set('autogit.widget',         true);
-
+c::set('autogit.widget',         false);
 c::set('autogit.language',       'en');
 c::set('autogit.translation', [
-    'site.update'  => 'Changed site options',
-    'page.create'  => 'Created page %s',
-    'page.update'  => 'Updated page %s',
-    'page.delete'  => 'Deleted page %s',
-    'page.sort'    => 'Sorted page %s',
-    'page.hide'    => 'Hid page %s',
-    'page.move'    => 'Moved page %1$s to %2$s',
-    'file.upload'  => 'Uploaded file %s',
-    'file.replace' => 'Replaced file %s',
-    'file.rename'  => 'Renamed file %s',
-    'file.update'  => 'Updated file %s',
-    'file.sort'    => 'Sorted file %s',
-    'file.delete'  => 'Deleted file %s',
+    'site.update'  => 'change site options',
+    'page.create'  => 'create page %s',
+    'page.update'  => 'update page %s',
+    'page.delete'  => 'delete page %s',
+    'page.sort'    => 'sort page %s',
+    'page.hide'    => 'hide page %s',
+    'page.move'    => 'move page %1$s to %2$s',
+    'file.upload'  => 'upload file %s',
+    'file.replace' => 'replace file %s',
+    'file.rename'  => 'rename file %s',
+    'file.update'  => 'update file %s',
+    'file.sort'    => 'sort file %s',
+    'file.delete'  => 'delete file %s',
 ]);
 
 c::set('plugin.commonmark', true);
