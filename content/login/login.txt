@@ -1,0 +1,17 @@
+title: Login
+
+----
+
+alert: Invalid username or password
+
+----
+
+username: Username
+
+----
+
+password: Password
+
+----
+
+button: Login

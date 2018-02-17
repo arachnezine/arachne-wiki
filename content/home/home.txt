@@ -1,0 +1,11 @@
+Title: Home
+
+----
+
+Text: 
+
+arachne’s wiki, storing all material going to be published later on on the zine.
+
+We move from etherpad to sketch out ideas and  having conversation, to a plain-text file system, based on git, to revise text and finalise it.
+
+the wiki manages also our planning, todos, and calendar (or how we deal with time between europe and the US).
